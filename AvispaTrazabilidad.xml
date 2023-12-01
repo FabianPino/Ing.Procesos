@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uma:MethodLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uma="http://www.eclipse.org/epf/uma/1.0.6" name="Ing Procesos" briefDescription="" id="_5WKzIH5IEe6LR7VTgJPiew" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" tool="epf=1.5.0">
+  <MethodElementProperty name="library_synFree" value="true"/>
+  <MethodPlugin name="Trazabilidad Requerimientos" briefDescription="" id="_Cr2JEH5JEe6LR7VTgJPiew" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" supporting="false" userChangeable="true">
+    <MethodElementProperty name="plugin_synFree" value="true"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_nzD18JBVEe69IoCkTDknhQ"/>
+    <MethodPackage xsi:type="uma:ContentPackage" name="Recursos" briefDescription="" id="_Nez8YH5JEe6LR7VTgJPiew" orderingGuide="" presentationName="" suppressed="false" global="false">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <MethodElementProperty name="me_edited" value="true"/>
+      <ContentElement xsi:type="uma:Role" name="analista" briefDescription="Profesional que utiliza tecnologías de la información y comunicación (TIC) para ayudar a las empresas en la solución a un problema mediante el diseño y la adopción de un sistema informático para mejorar el funcionamiento de la empresa." id="_UksZ8H5JEe6LR7VTgJPiew" orderingGuide="" presentationName="Analista" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Role" name="lider_de_proyecto" briefDescription="Profesional responsable de garantizar el cumplimiento de los objetivos de los proyectos asignados, gestionando y coordinando con todas las partes interesadas. Aactuando como facilitador de los procesos de cambio para el Cliente." id="_d1LG0H5JEe6LR7VTgJPiew" orderingGuide="" presentationName="Lider de proyecto" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Role" name="equipo_desarrollo" briefDescription="Equipo formado por entre 3 a 9 profesionales que se encargan de desarrollar el producto, auto-organizándose para conseguir entregar un incremento de software al final del ciclo de desarrollo." id="_g7XbsH5JEe6LR7VTgJPiew" orderingGuide="" presentationName="Equipo desarrollo" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="requerimientos" briefDescription="Artefacto que contiene los requerimientos iniciales" id="_p6RlgH5LEe6LR7VTgJPiew" orderingGuide="" presentationName="Requerimientos" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="lista_de_requerimientos_finales" briefDescription="Artecfacto donde estan consolidados los requerimientos finales del proyecto" id="_0ve0gH5LEe6LR7VTgJPiew" orderingGuide="" presentationName="Lista de requerimientos finales" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="documentos_tecnicos_del_proceso_de_desarrollo_de_sw" briefDescription="Todos los documentos técnicos que se generan de cada uno de los procesos (diseño, construcción, pruebas, producción) del ciclo de vida del desarrollo de software." id="_3bl1cH5LEe6LR7VTgJPiew" orderingGuide="" presentationName="Documentos tecnicos del proceso de desarrollo de SW" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Artifact" name="registro_de_evolucion_de_requerimientos" briefDescription="Artefacto donde se registra la evolución de los documentos para su respectiva trazabilidad&#xD;&#xA;" id="_8uJUMH5LEe6LR7VTgJPiew" orderingGuide="" presentationName="Registro de evolucion de requerimientos" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="gestionar_requisitos_para_trazabilidad" briefDescription="Tareas que permiten evaluar y determinar que requerimientos seran los seleccionados para conformar el documento de requerimientos finales con el cual se dara inicio al desarrollo del proyecto." id="_OrK6cH5MEe6LR7VTgJPiew" orderingGuide="" presentationName="Gestionar requisitos para trazabilidad" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <Presentation xsi:type="uma:TaskDescription" name="gestionar_requisitos_para_trazabilidad,_OrK6cH5MEe6LR7VTgJPiew" briefDescription="" id="-sJXG4-zKqpmlI3PfJ_cG-g" orderingGuide="" presentationName="" suppressed="false" authors="" changeDate="2023-11-22T03:06:58" changeDescription="" version="" externalId="">
+          <MainDescription><![CDATA[Tareas que permiten evaluar y determinar que requerimientos seran los seleccionados para conformar el documento de
+requerimientos finales con el cual se dara inicio al desarrollo del proyecto.]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <Purpose></Purpose>
+        </Presentation>
+        <PerformedBy>_UksZ8H5JEe6LR7VTgJPiew</PerformedBy>
+        <MandatoryInput>_p6RlgH5LEe6LR7VTgJPiew</MandatoryInput>
+        <Output>_0ve0gH5LEe6LR7VTgJPiew</Output>
+        <AdditionallyPerformedBy>_d1LG0H5JEe6LR7VTgJPiew</AdditionallyPerformedBy>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="categorizar_requerimientos" briefDescription="" id="_K3sNgH5nEe6LR7VTgJPiew" orderingGuide="" presentationName="Categorizar requerimientos" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>_d1LG0H5JEe6LR7VTgJPiew</PerformedBy>
+        <PerformedBy>_UksZ8H5JEe6LR7VTgJPiew</PerformedBy>
+        <MandatoryInput>_0ve0gH5LEe6LR7VTgJPiew</MandatoryInput>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="evaluar_requerimientos_para_trazabilidad" briefDescription="" id="_XEp5oH5nEe6LR7VTgJPiew" orderingGuide="" presentationName="Evaluar requerimientos para trazabilidad" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>_d1LG0H5JEe6LR7VTgJPiew</PerformedBy>
+        <PerformedBy>_g7XbsH5JEe6LR7VTgJPiew</PerformedBy>
+        <MandatoryInput>_0ve0gH5LEe6LR7VTgJPiew</MandatoryInput>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="actualizar_requerimientos_para_trazabilidad" briefDescription="" id="_srVuMH5nEe6LR7VTgJPiew" orderingGuide="" presentationName="Actualizar requerimientos para trazabilidad" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>_UksZ8H5JEe6LR7VTgJPiew</PerformedBy>
+        <PerformedBy>_d1LG0H5JEe6LR7VTgJPiew</PerformedBy>
+        <MandatoryInput>_0ve0gH5LEe6LR7VTgJPiew</MandatoryInput>
+        <Output>_0ve0gH5LEe6LR7VTgJPiew</Output>
+      </ContentElement>
+      <ContentElement xsi:type="uma:Task" name="registrar_evolucion_de_requerimientos_para_trazabilidad" briefDescription="" id="_2b_I4H5nEe6LR7VTgJPiew" orderingGuide="" presentationName="Registrar evolucion de requerimientos para trazabilidad" suppressed="false" isAbstract="false" variabilityType="na">
+        <MethodElementProperty name="me_edited" value="true"/>
+        <PerformedBy>_d1LG0H5JEe6LR7VTgJPiew</PerformedBy>
+        <Output>_8uJUMH5LEe6LR7VTgJPiew</Output>
+      </ContentElement>
+    </MethodPackage>
+    <MethodPackage xsi:type="uma:ProcessComponent" name="Gestion de requerimientos" briefDescription="" id="_jFKP4IlkEe6iRqxwFE9MuA" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <Process xsi:type="uma:CapabilityPattern" name="Gestion de requerimientos" briefDescription="" id="_jFKP4YlkEe6iRqxwFE9MuA" orderingGuide="" presentationName="Gestion de requerimientos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+        <Presentation xsi:type="uma:ProcessDescription" name="Gestion de requerimientos,_jFKP4YlkEe6iRqxwFE9MuA" briefDescription="" id="-1NswuQw4bepe5_VCcWlpCw" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+          <MainDescription><![CDATA[Proceso que permite por medio de un conjunto de actividades, analizar, especificar y documentar requerimientos software.]]></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <HowToStaff></HowToStaff>
+          <Purpose></Purpose>
+          <Scope></Scope>
+          <UsageNotes></UsageNotes>
+        </Presentation>
+      </Process>
+    </MethodPackage>
+    <MethodPackage xsi:type="uma:ProcessComponent" name="Proceso de desarrollo de software" briefDescription="" id="_lpI9oIlmEe6iRqxwFE9MuA" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <Process xsi:type="uma:CapabilityPattern" name="Proceso de desarrollo de software" briefDescription="" id="_lpI9oYlmEe6iRqxwFE9MuA" orderingGuide="" presentationName="Proceso de desarrollo de software" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na">
+        <Presentation xsi:type="uma:ProcessDescription" name="Proceso de desarrollo de software,_lpI9oYlmEe6iRqxwFE9MuA" briefDescription="" id="-0fEHTY8dWU3TehSdVucVgg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <HowToStaff></HowToStaff>
+          <Purpose></Purpose>
+          <Scope></Scope>
+          <UsageNotes></UsageNotes>
+        </Presentation>
+      </Process>
+    </MethodPackage>
+    <MethodPackage xsi:type="uma:ProcessComponent" name="Trazabilidad" briefDescription="" id="_BU9KcH5QEe6LR7VTgJPiew" orderingGuide="" presentationName="" suppressed="false" global="false" authors="" changeDescription="" version="">
+      <MethodElementProperty name="pkg_loadCheck" value="true"/>
+      <MethodElementProperty name="me_edited" value="true"/>
+      <Process xsi:type="uma:DeliveryProcess" name="Trazabilidad" briefDescription="" id="_BU9KcX5QEe6LR7VTgJPiew" orderingGuide="" presentationName="Trazabilidad" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityType="na" diagramURI="Trazabilidad%20Requerimientos/deliveryprocesses/Trazabilidad/diagram.xmi">
+        <Presentation xsi:type="uma:DeliveryProcessDescription" name="Trazabilidad,_BU9KcX5QEe6LR7VTgJPiew" briefDescription="" id="-v6c-GvjUq3-LP-_fF57kXg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+          <MainDescription></MainDescription>
+          <KeyConsiderations></KeyConsiderations>
+          <Alternatives></Alternatives>
+          <HowToStaff></HowToStaff>
+          <Purpose></Purpose>
+          <Scope></Scope>
+          <UsageNotes></UsageNotes>
+          <Scale></Scale>
+          <ProjectCharacteristics></ProjectCharacteristics>
+          <RiskLevel></RiskLevel>
+          <EstimatingTechnique></EstimatingTechnique>
+          <ProjectMemberExpertise></ProjectMemberExpertise>
+          <TypeOfContract></TypeOfContract>
+        </Presentation>
+        <BreakdownElement xsi:type="uma:CapabilityPattern" name="Gestion de requerimientos" briefDescription="" id="_2EgOwIlkEe6iRqxwFE9MuA" orderingGuide="" presentationName="" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_jFKP4YlkEe6iRqxwFE9MuA" variabilityType="extends" diagramURI="Trazabilidad%20Requerimientos/deliveryprocesses/Trazabilidad/diagram.xmi">
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="gestionar_requisitos_para_trazabilidad" briefDescription="Tareas que permiten evaluar y determinar que requerimientos seran los seleccionados para conformar el documento de requerimientos finales con el cual se dara inicio al desarrollo del proyecto." id="_NUFTwIllEe6iRqxwFE9MuA" orderingGuide="" presentationName="Gestionar requisitos para trazabilidad" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Presentation xsi:type="uma:DescriptorDescription" name="gestionar_requisitos_para_trazabilidad,_NUFTwIllEe6iRqxwFE9MuA" briefDescription="" id="-FG4Dj-QZVnIAkS61ykPbjg" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" externalId="" usageGuidance="">
+            <MainDescription></MainDescription>
+            <KeyConsiderations></KeyConsiderations>
+            <RefinedDescription>Tareas que permiten evaluar y determinar que requerimientos seran los seleccionados para conformar el documento de&#xD;
+requerimientos finales con el cual se dara inicio al desarrollo del proyecto.</RefinedDescription>
+          </Presentation>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Predecessor id="_Vbs7IIllEe6iRqxwFE9MuA" linkType="finishToStart">_2EgOwIlkEe6iRqxwFE9MuA</Predecessor>
+          <Task>_OrK6cH5MEe6LR7VTgJPiew</Task>
+          <AdditionallyPerformedBy>_hEV8wIlmEe6iRqxwFE9MuA</AdditionallyPerformedBy>
+          <MandatoryInput>_NXOHUollEe6iRqxwFE9MuA</MandatoryInput>
+          <Output>_NXOHVIllEe6iRqxwFE9MuA</Output>
+          <PerformedPrimarilyBy>_NXOHUIllEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:RoleDescriptor" name="analista" briefDescription="Profesional que utiliza tecnologías de la información y comunicación (TIC) para ayudar a las empresas en la solución a un problema mediante el diseño y la adopción de un sistema informático para mejorar el funcionamiento de la empresa." id="_NXOHUIllEe6iRqxwFE9MuA" orderingGuide="" presentationName="Analista" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Role>_UksZ8H5JEe6LR7VTgJPiew</Role>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="requerimientos" briefDescription="Artefacto que contiene los requerimientos iniciales" id="_NXOHUollEe6iRqxwFE9MuA" orderingGuide="" presentationName="Requerimientos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <WorkProduct>_p6RlgH5LEe6LR7VTgJPiew</WorkProduct>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="lista_de_requerimientos_finales" briefDescription="Artecfacto donde estan consolidados los requerimientos finales del proyecto" id="_NXOHVIllEe6iRqxwFE9MuA" orderingGuide="" presentationName="Lista de requerimientos finales" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <WorkProduct>_0ve0gH5LEe6LR7VTgJPiew</WorkProduct>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="categorizar_requerimientos" briefDescription="" id="_hBDYMIlmEe6iRqxwFE9MuA" orderingGuide="" presentationName="Categorizar requerimientos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Predecessor id="__PVfQYlnEe6iRqxwFE9MuA" linkType="finishToStart">_NUFTwIllEe6iRqxwFE9MuA</Predecessor>
+          <Task>_K3sNgH5nEe6LR7VTgJPiew</Task>
+          <MandatoryInput>_NXOHVIllEe6iRqxwFE9MuA</MandatoryInput>
+          <PerformedPrimarilyBy>_hEV8wIlmEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+          <PerformedPrimarilyBy>_NXOHUIllEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:RoleDescriptor" name="lider_de_proyecto" briefDescription="Profesional responsable de garantizar el cumplimiento de los objetivos de los proyectos asignados, gestionando y coordinando con todas las partes interesadas. Aactuando como facilitador de los procesos de cambio para el Cliente." id="_hEV8wIlmEe6iRqxwFE9MuA" orderingGuide="" presentationName="Lider de proyecto" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Role>_d1LG0H5JEe6LR7VTgJPiew</Role>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="evaluar_requerimientos_para_trazabilidad" briefDescription="" id="_i4HAcIlmEe6iRqxwFE9MuA" orderingGuide="" presentationName="Evaluar requerimientos para trazabilidad" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Task>_XEp5oH5nEe6LR7VTgJPiew</Task>
+          <MandatoryInput>_NXOHVIllEe6iRqxwFE9MuA</MandatoryInput>
+          <PerformedPrimarilyBy>_hEV8wIlmEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+          <PerformedPrimarilyBy>_i7aMEIlmEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:RoleDescriptor" name="equipo_desarrollo" briefDescription="Equipo formado por entre 3 a 9 profesionales que se encargan de desarrollar el producto, auto-organizándose para conseguir entregar un incremento de software al final del ciclo de desarrollo." id="_i7aMEIlmEe6iRqxwFE9MuA" orderingGuide="" presentationName="Equipo desarrollo" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Role>_g7XbsH5JEe6LR7VTgJPiew</Role>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:CapabilityPattern" name="Proceso de desarrollo de software" briefDescription="" id="_SR18UIlnEe6iRqxwFE9MuA" orderingGuide="" presentationName="" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" variabilityBasedOnElement="_lpI9oYlmEe6iRqxwFE9MuA" variabilityType="extends" diagramURI="Trazabilidad%20Requerimientos/deliveryprocesses/Trazabilidad/diagram.xmi">
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="actualizar_requerimientos_para_trazabilidad" briefDescription="" id="_XlwF8IlnEe6iRqxwFE9MuA" orderingGuide="" presentationName="Actualizar requerimientos para trazabilidad" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Task>_srVuMH5nEe6LR7VTgJPiew</Task>
+          <MandatoryInput>_NXOHVIllEe6iRqxwFE9MuA</MandatoryInput>
+          <Output>_NXOHVIllEe6iRqxwFE9MuA</Output>
+          <PerformedPrimarilyBy>_NXOHUIllEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+          <PerformedPrimarilyBy>_hEV8wIlmEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:TaskDescriptor" name="registrar_evolucion_de_requerimientos_para_trazabilidad" briefDescription="" id="_Y0kCcIlnEe6iRqxwFE9MuA" orderingGuide="" presentationName="Registrar evolucion de requerimientos para trazabilidad" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="true" prefix="" isEventDriven="false" isOngoing="false" isRepeatable="false" isSynchronizedWithSource="true">
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <Predecessor id="_GftqsYlqEe6iRqxwFE9MuA" linkType="finishToStart">_XlwF8IlnEe6iRqxwFE9MuA</Predecessor>
+          <Task>_2b_I4H5nEe6LR7VTgJPiew</Task>
+          <Output>_Y3s2AIlnEe6iRqxwFE9MuA</Output>
+          <PerformedPrimarilyBy>_hEV8wIlmEe6iRqxwFE9MuA</PerformedPrimarilyBy>
+        </BreakdownElement>
+        <BreakdownElement xsi:type="uma:WorkProductDescriptor" name="registro_de_evolucion_de_requerimientos" briefDescription="Artefacto donde se registra la evolución de los documentos para su respectiva trazabilidad&#xD;&#xA;" id="_Y3s2AIlnEe6iRqxwFE9MuA" orderingGuide="" presentationName="Registro de evolucion de requerimientos" suppressed="false" isAbstract="false" hasMultipleOccurrences="false" isOptional="false" isPlanned="false" prefix="" isSynchronizedWithSource="true" activityEntryState="" activityExitState="">
+          <MethodElementProperty name="descriptor_createdByReference" value="true"/>
+          <MethodElementProperty name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <SuperActivity>_BU9KcX5QEe6LR7VTgJPiew</SuperActivity>
+          <WorkProduct>_8uJUMH5LEe6LR7VTgJPiew</WorkProduct>
+        </BreakdownElement>
+        <IncludesPattern>_jFKP4YlkEe6iRqxwFE9MuA</IncludesPattern>
+        <IncludesPattern>_lpI9oYlmEe6iRqxwFE9MuA</IncludesPattern>
+      </Process>
+    </MethodPackage>
+  </MethodPlugin>
+  <MethodPlugin name="new_plug-in" briefDescription="" id="_Y1qWAIlkEe6iRqxwFE9MuA" orderingGuide="" presentationName="" suppressed="false" authors="" changeDescription="" version="" supporting="false" userChangeable="true">
+    <MethodElementProperty name="plugin_synFree" value="true"/>
+    <MethodPackage xsi:type="uma:ContentCategoryPackage" name="ContentCategories" id="_nzhI8JBVEe69IoCkTDknhQ"/>
+  </MethodPlugin>
+</uma:MethodLibrary>
